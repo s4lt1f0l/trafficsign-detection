@@ -1,0 +1,11 @@
+names:
+- Prohibitory
+- Danger
+- Mandatory
+- Information
+- Sub-sign
+nc: 5
+path: /kaggle/input/datasets/jaydenguyenx/vietnamese-traffic-signs-detection-and-recognition/train_data
+test: images/test
+train: images/train
+val: images/val

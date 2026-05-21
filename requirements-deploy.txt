@@ -1,0 +1,18 @@
+# Core DL - Headless for Docker
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics
+transformers
+supervision
+
+# Data & Image Processing (Headless)
+opencv-python-headless
+numpy
+pandas
+Pillow
+pyyaml
+tqdm
+
+# Web App
+streamlit
+matplotlib

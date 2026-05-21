@@ -1,0 +1,52 @@
+# Build artifacts
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+lib/
+bin/
+include/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Training data and extra weights (Excluded for lightweight web app image)
+labck-htk.ipynb
+weights/best_detr_model/
+weights/detr_traffic_signs_results/
+weights/best_frcnn.pth
+weights/comparison_results.csv
+weights/yolo26n.pt
+weights/yolov8m.pt
+weights/runs/
+datasets/
+*.zip
+*.tar.gz
+*.csv
+
+# Documentation and Reports
+*.pdf
+*.docx
+*.original.md
+
+# Git and OS files
+.git/
+.gitignore
+.DS_Store
+Thumbs.db

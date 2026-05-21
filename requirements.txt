@@ -1,0 +1,21 @@
+# Cơ sở hạ tầng Deep Learning
+torch
+torchvision
+ultralytics
+transformers
+supervision
+
+# Xử lý dữ liệu và hình ảnh
+opencv-python
+numpy
+pandas
+Pillow
+pyyaml
+tqdm
+
+# Triển khai Web App
+streamlit
+
+# Hỗ trợ hiển thị và tính toán
+ipykernel
+matplotlib

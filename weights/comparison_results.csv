@@ -1,0 +1,4 @@
+Tiêu chí,YOLOv8,Faster R-CNN,DETR
+Độ chính xác (mAP@50),0.4577,~0.82 (Ước tính),~0.78 (Ước tính)
+Tốc độ xử lý (ms/ảnh),20.69,100.95,39.16
+Dung lượng Weight (MB),~6MB,~160MB,~100MB
