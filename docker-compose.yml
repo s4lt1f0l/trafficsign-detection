@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    container_name: trafficsign-app
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
+    volumes:
+      - ./weights:/app/weights:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3

@@ -48,6 +48,19 @@ Yêu cầu: Python 3.9 trở lên.
 ### 4.2. Triển khai với Docker (Khuyên dùng)
 Việc sử dụng Docker giúp đảm bảo ứng dụng chạy ổn định trên mọi môi trường.
 
+#### Cách 1: Sử dụng Docker Compose (Đơn giản nhất)
+1. **Khởi chạy ứng dụng**:
+   ```bash
+   docker-compose up -d --build
+   ```
+   Ứng dụng sẽ tự động được build và chạy ngầm tại: `http://localhost:8501`
+
+2. **Dừng ứng dụng**:
+   ```bash
+   docker-compose down
+   ```
+
+#### Cách 2: Sử dụng Docker CLI truyền thống
 1. **Xây dựng Image**:
    ```bash
    docker build -t trafficsign-app .
@@ -57,7 +70,6 @@ Việc sử dụng Docker giúp đảm bảo ứng dụng chạy ổn định tr
    ```bash
    docker run -p 8501:8501 trafficsign-app
    ```
-   Ứng dụng sẽ khả dụng tại: `http://localhost:8501`
 
 ---
 

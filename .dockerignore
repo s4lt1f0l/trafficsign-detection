@@ -1,5 +1,6 @@
 # Build artifacts
 venv/
+venv-deploy/
 .env
 __pycache__/
 *.pyc
